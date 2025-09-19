@@ -49,9 +49,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images, interval = 3000 }) =>
           backgroundColor: 'rgba(0,0,0,0.4)',
           '&:hover': { backgroundColor: 'rgba(0,0,0,0.6)' },
         }}
-      >
-        back
-      </IconButton>
+      ></IconButton>
       <IconButton
         onClick={nextSlide}
         sx={{
@@ -63,9 +61,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images, interval = 3000 }) =>
           backgroundColor: 'rgba(0,0,0,0.4)',
           '&:hover': { backgroundColor: 'rgba(0,0,0,0.6)' },
         }}
-      >
-        next
-      </IconButton>
+      ></IconButton>
     </Box>
   );
 };

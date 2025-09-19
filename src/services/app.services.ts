@@ -41,7 +41,7 @@ export const getProducts = async (): Promise<Product[]> => {
   return [
     {
       id: 1,
-      name: 'T-Shirt',
+      name: 'Red T-Shirt',
       price: 450,
       image:
         'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR6C5t7PVz1wf19MEeyCr2naTSQO7s5VhOa0HBDQnPsqqJT3JrIiqwlASs17vHctaCsBZwh2OP63G2Vtdmo4gisMKHegkQ0Qf1hFDzX7haTLuhuBU9xES_RWqs',
@@ -49,7 +49,7 @@ export const getProducts = async (): Promise<Product[]> => {
     },
     {
       id: 2,
-      name: 'Jeans',
+      name: 'Blue Jeans',
       price: 500,
       image:
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrbTx7GNrW-VEYs2e0NJeeLnTy1Tp1X5jAYw&s',
@@ -57,7 +57,7 @@ export const getProducts = async (): Promise<Product[]> => {
     },
     {
       id: 2,
-      name: 'Cotton Sports Pants',
+      name: 'Black denim',
       price: 800,
       image:
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjPQ-5Ekr-nsqh6IQoUHQW4PwEMRRJJlOv0A&s',
